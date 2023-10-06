@@ -101,6 +101,8 @@ int main(void) {
 }
 ```
 
+You can find the complete file here: [testfile.c](./testfile.c)
+
 ## Step 4: Compile and Run the Tests
 
 1.  In your terminal navigate to where the `testfile.c` is located.
