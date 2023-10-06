@@ -20,9 +20,9 @@ void test_simple_addition() {
     int expected = 15;
     int a = 5;
     int b = 10;
-    result = add(a, b);
+    int actual = add(a, b);
 
-    TEST_ASSERT_EQUAL_INT(expected, result);
+    TEST_ASSERT_EQUAL_INT(expected, actual);
 }
 
 int main() {
