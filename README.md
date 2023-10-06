@@ -3,6 +3,9 @@
 
 This is supposed to walk you through the process of setting up unit testing for your C code using the Unity testing framework. We'll start with downloading Unity, writing a simple C function, adding Unity to your project, writing tests, and finally, compiling and running the tests.
 
+> **Disclaimer:** Unit testing is an advanced practice in software development, and it assumes a strong familiarity with C programming and its syntax. Before engaging in unit testing, ensure you have a solid understanding of C and its concepts. Mastery of these fundamentals will greatly facilitate your unit testing efforts, which involve writing test code, designing test cases, and analyzing function behavior under various conditions. Start with simpler projects if you are new to unit testing and progressively tackle more complex scenarios as you gain experience.
+
+
 ## Step 1: Download/Clone Unity from GitHub
 
 1. Visit the Unity GitHub repository at [https://github.com/ThrowTheSwitch/Unity](https://github.com/ThrowTheSwitch/Unity).
