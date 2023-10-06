@@ -18,7 +18,8 @@ void tearDown(void) {
 // Define a test case
 void test_simple_addition() {
     int expected = 15;
-
+    int a = 5;
+    int b = 10;
     result = add(a, b);
 
     TEST_ASSERT_EQUAL_INT(expected, result);
