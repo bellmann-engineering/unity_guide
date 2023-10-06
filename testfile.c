@@ -7,8 +7,7 @@ int add(int a, int b) {
 
 // This function will be called before each test case
 void setUp(void) {
-    a = 10;
-    b = 5;
+    // You can add some logic here
 }
 
 // This function will be called after each test case
