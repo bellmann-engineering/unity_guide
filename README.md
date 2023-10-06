@@ -23,7 +23,7 @@ This is supposed to walk you through the process of setting up unit testing for 
 
 ![Ordner](https://github.com/bellmann-engineering/unity_guide/blob/9545363cb7af10c1c0b996dddea00c48a3fb1838/folder.PNG?raw=true)
 
-3. Inside the C source file define a simple C function that you want to unit test in the next step:
+2. Inside the C source file define a simple C function that you want to unit test in the next step:
 
    ```c
 
