@@ -40,7 +40,7 @@ This is supposed to walk you through the process of setting up unit testing for 
 #include "unity.h"
 ```
     
-2.  Now you can start writing your tests:
+2.  Now you can start writing your tests (using the AAA-approach):
 ```c
 
 #include "unity.h"
@@ -51,9 +51,9 @@ void test_simple_addition() {
     int b = 5;
     int expected = 15;
 
-    result = add(a, b);
+    int actual = add(a, b);
 
-    TEST_ASSERT_EQUAL_INT(expected, result);
+    TEST_ASSERT_EQUAL_INT(expected, actual);
 }
 
 ```
