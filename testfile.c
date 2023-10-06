@@ -1,10 +1,5 @@
 #include "unity.h"
 
-// Global variables for sharing data between setup, test, and teardown
-int a;
-int b;
-int result;
-
 // The function to test
 int add(int a, int b) {
     return a + b;
