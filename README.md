@@ -89,6 +89,8 @@ You can find the complete file here: [testfile.c](./testfile.c)
 2.  Compile your test program, including both your test source file (`testfile.c`) and the Unity source file (`unity.c`), and specify the output executable name (e.g., `test`):
     
 `gcc -o test testfile.c Unity-master/src/unity.c -I Unity-master/src/` 
+
+_Note:_ the folder `Unity-master` can be named different on your environment depending on how you got the repository.
  
 Run the compiled test program:
  
