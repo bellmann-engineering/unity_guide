@@ -94,7 +94,7 @@ _Note:_ the folder `Unity-master` can be named different on your environment dep
  
 Run the compiled test program:
  
-`./test` 
+`./test.exe` 
 
 Unity will execute your tests and display the test results in the terminal. You'll see if each test passed or failed and any relevant diagnostic information.
 
