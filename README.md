@@ -31,29 +31,8 @@ This is supposed to walk you through the process of setting up unit testing for 
        return a + b;
    }
    
-## Step 3: Add Unity and Write Tests
 
-I apologize for the confusion. If you want to have the Unity tests, setup, and teardown all within a single test file (`testfile.c`), you can do so. Here's an updated guide with a focus on that approach:
-
-markdown
-
-``# Unit Testing in C with Unity - Step-by-Step Guide
-
-In this guide, we'll walk you through the process of setting up unit testing for your C code using the Unity testing framework. We'll start with writing a simple C function, adding Unity to your test file, writing tests, and finally, compiling and running the tests.
-
-## Step 1: Write a Simple C Function
-
-1. Create a new directory for your project and navigate to it in the terminal.
-
-2. Inside your project directory, create a C source file (e.g., `mycode.c`) and define a simple C function:
-
-   ```c
-
-   int add(int a, int b) {
-       return a + b;
-   }
-
-## Step 2: Add Unity to Your Test File
+## Step 3: Add Unity to Your Test File
 
 1.  Add an include to unity (using \"", not <>) to the `testfile.c`:
 
