@@ -74,7 +74,7 @@ int main(void) {
     UNITY_BEGIN();
 
     // Add your test cases to run
-    RUN_TEST(test_addition);
+    RUN_TEST(test_simple_addition);
 
     return UNITY_END();
 }
